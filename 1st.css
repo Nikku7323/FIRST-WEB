@@ -1,0 +1,176 @@
+body {
+    background-color: antiquewhite;
+    background-color: #EBD9B4;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.head {
+    
+    background-color: #F9EFDB;
+    border-radius: 10px;
+}
+
+.top {
+
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: inline;
+    padding: auto;
+    margin: auto;
+
+}
+
+img {
+    height: 100px;
+    display: inline;
+    border-radius: 10px;
+    animation: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+.socail {
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 30%;
+}
+
+.fa:hover {
+    scale: 1.1;
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    transition: .5s;
+
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #866b80;
+    color: red;
+}
+
+@keyframes image {
+    0% {
+        box-shadow: 0 0 50px red;
+    }
+
+    25% {
+        box-shadow: 0 0 50px rgb(228, 10, 210);
+    }
+
+    50% {
+        box-shadow: 0 0 50px yellow;
+    }
+
+    75% {
+        box-shadow: 0 0 50px rgb(189, 116, 205);
+    }
+
+    100% {
+        box-shadow: 0 0 50px rgb(62, 111, 236);
+    };
+}
+.content{
+    
+    justify-content: center;
+    text-align:left;
+    margin: 10px;
+    padding: 5px;
+
+    
+}
+h2{
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px #c40e0e;
+    font-style: italic;
+}
+    
+.ai:hover{
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px #c40e0e;
+}
+h2:hover{
+    text-decoration:  double underline;
+    text-shadow: none;
+    font-style: normal;
+
+}
+h4:hover{
+    text-decoration: dotted underline;
+}
+.footer-content{
+    justify-content: left;
+    text-align: justify;
+    color: white;
+    background-color: black;
+
+}
+.media{
+
+  
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5PX;
+    border: 1PX solid;
+    border-radius: 5px;
+    
+   
+    
+
+}
+#insta{
+    background-color: #e13023;
+}
+#fb{
+    background-color: #3773a0;
+}
+#tw{
+    background-color: #00aeff;
+}
+#link{
+    background-color: rgb(0, 21, 252);
+}
+#you{
+    background-color: red;
+}
